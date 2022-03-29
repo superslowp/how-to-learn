@@ -9,11 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-ul {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -52,6 +47,7 @@ ul {
   font-size: 18px;
   line-height: 25px;
   z-index: 3;
+  margin: 0;
 }
 
 .header__main-illustration {
@@ -96,6 +92,7 @@ ul {
   display: flex;
   flex-direction: column;
   width: 80%;
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
@@ -103,6 +100,7 @@ ul {
   font-size: 24px;
   margin: 0;
   padding-top: 30px;
+  margin: 0;
 }
 
 .two-columns__paragraph:nth-of-type(1) {
@@ -145,7 +143,7 @@ ul {
   font-weight: normal;
   width: 60%;
   margin: 0;
-  z-index: 1;
+  z-index: 1;  
 }
 
 .table {
@@ -159,6 +157,8 @@ ul {
   padding: 0;
   margin: 0;
   padding-left: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .table__cell {
@@ -182,6 +182,8 @@ ul {
   font-weight: normal;
   margin: 0;
   padding-top: 20px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .feynman {
@@ -344,6 +346,7 @@ ul {
   font-size: 18px;
   list-style: none;
   padding-bottom: 16px;
+  margin: 0;
 }
 
 .footer__column-link {
