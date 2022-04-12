@@ -1,10 +1,11 @@
 .khan__quote {
     display: block;
-    width: 790px;
+    /*В общем, текст попадает по переносам в бриф, если сделать значение примерно 785px. 
+    А с 790px переносы слов не соответствуют брифу :( */
+    max-width: 790px;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
     padding-top: 50px;
-
     margin: 0;
 }
